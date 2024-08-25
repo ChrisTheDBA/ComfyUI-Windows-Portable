@@ -15,16 +15,16 @@ curl https://www.python.org/ftp/python/3.11.9/python-3.11.9-embed-amd64.zip \
 unzip python_embeded.zip -d "$workdir"/python_embeded
 
 # ComfyUI-3D-Pack, part 1/2
-#$gcs https://github.com/MrForExample/Comfy3D_Pre_Builds.git \
-#    "$workdir"/Comfy3D_Pre_Builds
+$gcs https://github.com/MrForExample/Comfy3D_Pre_Builds.git \
+    "$workdir"/Comfy3D_Pre_Builds
 
-#mv \
-#    "$workdir"/Comfy3D_Pre_Builds/_Python_Source_cpp/py311/include \
-#    "$workdir"/python_embeded/include
+mv \
+    "$workdir"/Comfy3D_Pre_Builds/_Python_Source_cpp/py311/include \
+    "$workdir"/python_embeded/include
 
-#mv \
-#    "$workdir"/Comfy3D_Pre_Builds/_Python_Source_cpp/py311/libs \
-#    "$workdir"/python_embeded/libs
+mv \
+    "$workdir"/Comfy3D_Pre_Builds/_Python_Source_cpp/py311/libs \
+    "$workdir"/python_embeded/libs
 
 # Setup Python embeded, part 2/3
 cd "$workdir"/python_embeded
@@ -57,14 +57,14 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     mediapipe
 
 # ComfyUI-3D-Pack, part 2/2
-#./python.exe -s -m pip install \
-#    "$workdir"/Comfy3D_Pre_Builds/_Build_Wheels/_Wheels_win_py311_cu121/*.whl
+./python.exe -s -m pip install \
+    "$workdir"/Comfy3D_Pre_Builds/_Build_Wheels/_Wheels_win_py311_cu121/*.whl
 
 # From: https://github.com/rusty1s/pytorch_scatter?tab=readme-ov-file#binaries
 ./python.exe -s -m pip install \
     torch-scatter -f https://data.pyg.org/whl/torch-2.3.0+cu121.html
 
-#rm -rf "$workdir"/Comfy3D_Pre_Builds
+rm -rf "$workdir"/Comfy3D_Pre_Builds
 
 # Add Ninja binary (replacing PIP one)
 curl -L https://github.com/ninja-build/ninja/releases/latest/download/ninja-win.zip \
