@@ -77,8 +77,6 @@ $gcs https://github.com/shadowcz007/comfyui-mixlab-nodes.git
 $gcs https://github.com/shiimizu/ComfyUI-PhotoMaker-Plus.git
 $gcs https://github.com/alexopus/ComfyUI-Image-Saver.git
 $gcs https://github.com/chflame163/ComfyUI_LayerStyle.git
-$gcs https://github.com/kijai/ComfyUI-Florence2.git
-$gcs https://github.com/un-seen/comfyui-tensorops.git
 $gcs https://github.com/Acly/comfyui-inpaint-nodes.git
 $gcs https://github.com/Acly/comfyui-tooling-nodes.git
 
