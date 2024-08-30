@@ -59,6 +59,10 @@ $gcs https://github.com/twri/sdxl_prompt_styler.git
 $gcs https://github.com/kijai/ComfyUI-segment-anything-2.git
 
 # Video
+$gcs https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git
+$gcs https://github.com/Fannovel16/ComfyUI-Frame-Interpolation.git
+$gcs https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
+
 
 # More
 $gcs https://github.com/cubiq/ComfyUI_FaceAnalysis.git
@@ -78,6 +82,13 @@ $gcs https://github.com/shiimizu/ComfyUI-PhotoMaker-Plus.git
 $gcs https://github.com/alexopus/ComfyUI-Image-Saver.git
 $gcs https://github.com/Acly/comfyui-inpaint-nodes.git
 $gcs https://github.com/Acly/comfyui-tooling-nodes.git
+$gcs https://github.com/LarryJane491/Image-Captioning-in-ComfyUI.git
+$gcs https://github.com/LarryJane491/Lora-Training-in-Comfy.git
+$gcs https://github.com/jitcoder/lora-info.git
+$gcs https://github.com/alexopus/ComfyUI-Image-Saver.git
+$gcs https://github.com/FizzleDorf/ComfyUI_FizzNodes.git
+
+
 
 
 cd "$workdir"
