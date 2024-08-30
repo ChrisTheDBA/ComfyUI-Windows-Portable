@@ -20,7 +20,6 @@ color-matcher
 colour-science
 compel
 cupy-cuda12x
-cupy-wheel
 dadaptation
 deepdiff
 diffusers
