@@ -22,7 +22,7 @@ https://raw.githubusercontent.com/crystian/ComfyUI-Crystools/main/requirements.t
 https://raw.githubusercontent.com/cubiq/ComfyUI_essentials/main/requirements.txt
 https://raw.githubusercontent.com/cubiq/ComfyUI_FaceAnalysis/main/requirements.txt
 https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/main/requirements.txt
-https://raw.githubusercontent.com/Fannovel16/ComfyUI-Frame-Interpolation/main/requirements-no-cupy.txt
+https://raw.githubusercontent.com/Fannovel16/ComfyUI-Frame-Interpolation/main/requirements-with-cupy.txt
 https://raw.githubusercontent.com/FizzleDorf/ComfyUI_FizzNodes/main/requirements.txt
 https://raw.githubusercontent.com/huchenlei/ComfyUI-layerdiffuse/main/requirements.txt
 https://raw.githubusercontent.com/kijai/ComfyUI-segment-anything-2/main/requirements.txt
