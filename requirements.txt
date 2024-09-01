@@ -11,7 +11,7 @@ albumentations
 altair
 argostranslate
 bitsandbytes
-boto3==1.34.86
+boto3==1.34.101
 cachetools
 clip @ https://github.com/openai/CLIP/archive/d50d76daa670286dd6cacf3bcd80b5e4823fc8e1.zip#sha256=b5842c25da441d6c581b53a5c60e0c2127ebafe0f746f8e15561a006c6c3be6a
 clip-interrogator
@@ -86,7 +86,9 @@ pixeloe
 plyfile
 prodigyopt
 psutil
+pycocoevalcap
 py-cpuinfo
+pydantic
 pygit2
 pygltflib
 pyhocon
@@ -119,6 +121,7 @@ spandrel
 surrealist
 svglib
 tensorboard
+timm==0.6.13
 timm
 tokenizers
 toml

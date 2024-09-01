@@ -86,6 +86,7 @@ $gcs https://github.com/LarryJane491/Image-Captioning-in-ComfyUI.git
 $gcs https://github.com/LarryJane491/Lora-Training-in-Comfy.git
 $gcs https://github.com/jitcoder/lora-info.git
 $gcs https://github.com/FizzleDorf/ComfyUI_FizzNodes.git
+$gcs https://github.com/sipherxyz/comfyui-art-venture.git
 
 
 
