@@ -26,6 +26,7 @@ cupy-cuda12x
 dadaptation
 decord>=0.6.0
 deepdiff
+docopt-ng
 diffusers
 diffusers[torch]
 dlib

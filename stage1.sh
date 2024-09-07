@@ -42,8 +42,6 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     --index-url https://download.pytorch.org/whl/cu121 \
     --extra-index-url https://pypi.org/simple
 
-./python.exe -s -m pip install --index-url https://pypi.org/simple docopt==0.6.2
-
 ./python.exe -s -m pip install \
     -r "$workdir"/requirements.txt
 
