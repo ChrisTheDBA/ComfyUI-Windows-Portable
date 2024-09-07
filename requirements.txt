@@ -172,6 +172,6 @@ xatlas
 xformers
 yacs
 yapf
-urllib3>=2.1.0
+urllib3
 yarg>=0.1.9
 zipp>=3.17.0
