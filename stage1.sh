@@ -42,6 +42,12 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     --index-url https://download.pytorch.org/whl/cu121 \
     --extra-index-url https://pypi.org/simple
 
+# Download and install the pre-built wheel for docopt
+curl -L https://files.pythonhosted.org/packages/2f/62/5b408f08c1074b2bdbd67203834fd1e8dbd1e5db8745bff86fd49b850f8b/docopt-0.6.2-py2.py3-none-any.whl \
+    -o "$workdir"/docopt-0.6.2-py2.py3-none-any.whl
+
+./python.exe -s -m pip install "$workdir"/docopt-0.6.2-py2.py3-none-any.whl
+
 ./python.exe -s -m pip install \
     -r "$workdir"/requirements.txt
 
