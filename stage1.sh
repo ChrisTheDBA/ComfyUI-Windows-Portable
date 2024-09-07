@@ -42,6 +42,8 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     --index-url https://download.pytorch.org/whl/cu121 \
     --extra-index-url https://pypi.org/simple
 
+./python -m pip download docopt==0.6.2 --only-binary=:all: -d D:\\a\\ComfyUI-Windows-Portable\\ComfyUI-Windows-Portable\\python_embeded\\
+
 ./python -s -m pip install docopt-0.6.2-py2.py3-none-any.whl
 
 ./python.exe -s -m pip install \
