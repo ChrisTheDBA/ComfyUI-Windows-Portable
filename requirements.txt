@@ -4,7 +4,6 @@ Pillow
 PyGithub
 PyMCubes
 accelerate
-accelerate==0.23.0
 addict
 aiohttp
 albumentations
@@ -26,6 +25,7 @@ contourpy>=1.1.1
 cupy-cuda12x
 dadaptation
 decord>=0.6.0
+docopt
 deepdiff
 diffusers
 diffusers[torch]
