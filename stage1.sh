@@ -42,9 +42,14 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     --index-url https://download.pytorch.org/whl/cu121 \
     --extra-index-url https://pypi.org/simple
 
-./python -m pip download docopt==0.6.2 --only-binary=:all: -d D:\\a\\ComfyUI-Windows-Portable\\ComfyUI-Windows-Portable\\python_embeded\\
+# Step 1: Download the docopt package (source or binary)
+./python -m pip download docopt==0.6.2 -d 'D:\a\ComfyUI-Windows-Portable\ComfyUI-Windows-Portable\python_embeded\'
 
-./python -s -m pip install docopt-0.6.2-py2.py3-none-any.whl
+# Step 2: (Optional) Build the .whl file from source if not already a .whl
+./python -m pip wheel docopt==0.6.2 --no-binary=:all: -w 'D:\a\ComfyUI-Windows-Portable\ComfyUI-Windows-Portable\python_embeded\'
+
+# Step 3: Install the .whl file
+./python -m pip install D:\a\ComfyUI-Windows-Portable\ComfyUI-Windows-Portable\python_embeded\docopt-0.6.2-py2.py3-none-any.whl
 
 ./python.exe -s -m pip install \
     -r "$workdir"/requirements.txt
