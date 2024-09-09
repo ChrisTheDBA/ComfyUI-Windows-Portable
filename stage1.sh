@@ -37,6 +37,12 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 ./python.exe -s -m pip install \
     --upgrade pip wheel setuptools Cython cmake
 
+# Download and install docopt wheel from the GitHub repository
+curl -L https://github.com/GoogleCloudPlatform/gcloud-python-wheels/raw/master/wheelhouse/docopt-0.6.2-py2.py3-none-any.whl \
+    -o "$workdir"/docopt-0.6.2-py2.py3-none-any.whl
+
+./python.exe -s -m pip install "$workdir"/docopt-0.6.2-py2.py3-none-any.whl
+
 ./python.exe -s -m pip install \
     xformers torchvision torchaudio \
     --index-url https://download.pytorch.org/whl/cu121 \
