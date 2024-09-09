@@ -54,8 +54,8 @@ $gcs https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git
 $gcs https://github.com/ltdrdata/ComfyUI-Impact-Pack.git
 $gcs https://github.com/ltdrdata/ComfyUI-Inspire-Pack.git
 $gcs https://github.com/mcmonkeyprojects/sd-dynamic-thresholding.git
-$gcs https://github.com/storyicon/comfyui_segment_anything.gi0
-$gcs https://github.com/wolfden/ComfyUi_PromptStylers
+$gcs https://github.com/storyicon/comfyui_segment_anything.git
+$gcs https://github.com/wolfden/ComfyUi_PromptStylers.git
 $gcs https://github.com/kijai/ComfyUI-segment-anything-2.git
 $gcs https://github.com/Ttl/ComfyUi_NNLatentUpscale.git
 $gcs https://github.com/Nourepide/ComfyUI-Allor.git
@@ -63,7 +63,7 @@ $gcs https://github.com/Nourepide/ComfyUI-Allor.git
 # Video
 $gcs https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git
 $gcs https://github.com/Fannovel16/ComfyUI-Frame-Interpolation.git
-$gcs https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
+$gcs https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git
 
 
 # More
