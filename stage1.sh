@@ -1,4 +1,3 @@
-
 #!/bin/bash
 set -eux
 
@@ -43,8 +42,13 @@ curl -L https://github.com/GoogleCloudPlatform/gcloud-python-wheels/raw/master/w
 
 ./python.exe -s -m pip install "$workdir"/docopt-0.6.2-py2.py3-none-any.whl
 
+# ./python.exe -s -m pip install \
+#     xformers torchvision torchaudio \
+#     --index-url https://download.pytorch.org/whl/cu121 \
+#     --extra-index-url https://pypi.org/simple
+
 ./python.exe -s -m pip install \
-    xformers torchvision torchaudio \
+    xformers==0.0.26.post1 torchvision==0.18.0 torchaudio \
     --index-url https://download.pytorch.org/whl/cu121 \
     --extra-index-url https://pypi.org/simple
 
